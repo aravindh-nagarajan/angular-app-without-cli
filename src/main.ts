@@ -1,7 +1,7 @@
 import 'zone.js/dist/zone';
 
-// import and override some of clarity's very generic class and elements styles
-import './clr-design.less';
+// To override clarity's class and elements styles
+import './clarity-design-wrapper.less';
 
 import { AppModule } from './app/app.module';
 

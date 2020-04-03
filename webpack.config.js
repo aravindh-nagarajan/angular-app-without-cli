@@ -1,8 +1,7 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 const merge = require('webpack-merge');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const common = require('./webpack.common.js');
+const base = require('./webpack.base.js');
 
 const cssLoaders = [
     'style-loader',
@@ -12,8 +11,7 @@ const cssLoaders = [
 module.exports = (env = {}) => {
     const buildFolder = './build';
 
-    console.log(buildFolder)
-    return merge(common(env), {
+    return merge(base(env), {
         watchOptions: {
             ignored: /node_modules/,
         },

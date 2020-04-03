@@ -1,18 +1,10 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const { AngularCompilerPlugin } = require('@ngtools/webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
-const nodeModulesRegex = /[\\/]node_modules[\\/]/;
-
 module.exports = (env = {}) => {
     const htmlLoaderOptions = {
-        minimize: !env.test,
-        removeAttributeQuotes: false,
-        keepClosingSlash: true,
-        conservativeCollapse: true,
-        caseSensitive: true,
-        minifyCSS: false,
+        minimize: false,
     };
 
     return {
@@ -26,8 +18,6 @@ module.exports = (env = {}) => {
                 },
             ),
             new AngularCompilerPlugin({
-                // different config file to exclude .ts files not directly related (imported) by app
-                // for example: stories, test files, etc
                 tsConfigPath: './tsconfig.app.json',
                 entryModule: './src/app/app.module#AppModule',
                 sourceMap: !env.test,
@@ -54,5 +44,3 @@ module.exports = (env = {}) => {
         },
     };
 };
-
-module.exports.nodeModulesRegex = nodeModulesRegex;

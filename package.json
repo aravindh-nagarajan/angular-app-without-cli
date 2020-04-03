@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack --config webpack.development.js",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "@angular/animations": "^9.1.0",
