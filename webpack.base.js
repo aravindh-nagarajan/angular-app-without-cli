@@ -29,8 +29,6 @@ module.exports = (env = {}) => {
                     test: /(?:\.ngfactory\.js|\.ngstyle\.js|\.ts)$/,
                     loader: '@ngtools/webpack',
                 },
-                // HTML files not in AngularJS folders, intended to be used in components to
-                // require the template as a string.
                 {
                     test: /\.html$/,
                     use: {

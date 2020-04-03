@@ -16,7 +16,6 @@ module.exports = (env = {}) => {
             ignored: /node_modules/,
         },
         mode: 'development',
-        devtool: 'eval-source-map',
         output: {
             path: path.resolve(__dirname, buildFolder),
         },
