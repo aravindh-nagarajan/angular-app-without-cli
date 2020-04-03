@@ -1,0 +1,10 @@
+{
+  "//comment": "need this file for proper build wo dev dependencies installed",
+  "extends": "./tsconfig.json",
+  "include": [
+      "src/**/*.d.ts"
+  ],
+  "files": [
+      "src/main.ts"
+  ]
+}
