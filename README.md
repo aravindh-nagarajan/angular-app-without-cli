@@ -1,4 +1,4 @@
-Angular 9 app without Angular CLI Configurations.
+AngularV9 application without Angular CLI Configurations.
 
 _To build:_
 
