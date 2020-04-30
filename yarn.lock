@@ -83,20 +83,20 @@
   resolved "https://registry.yarnpkg.com/@angular/upgrade/-/upgrade-9.1.0.tgz#983a55cde209de0185e61ffaf8447e23e159fb69"
   integrity sha512-LO6iDDk7HoCBK1x+ZIeKB1N5E2/Gfku4SYxFxjcGxA7os2bheOC4UZ+WpH6C6w1Z2tD+fbF71MqOiGPEhhK2AA==
 
-"@clr/angular@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-3.1.0.tgz#49b1aa8d1efa1981518d222d7999ef9935ce8ca4"
-  integrity sha512-TI0YspObL8BiPIQKyqgiXdMzB3yTbu1LClctvitIZbUQV0bU4vT8D5KDUEurkpToMntVXXlAyPpUHf5+h5CFKA==
+"@clr/angular@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-3.1.1.tgz#3fe078f34c1a9f979b0637419aaa8ef6de04f682"
+  integrity sha512-d+DbUVjls/mqQ81b0jxp16g2D+BK+1bSIDx5qaf67qKfDhc8dTdADl7BwxGb1V7jz9WUHihg8W4W/8jVhOpJrg==
 
 "@clr/city@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@clr/city/-/city-1.1.0.tgz#4a444cd12c626d66ffadab27e9d09bb3c8eca352"
   integrity sha512-R+C4uywmXoTD01LINOt3O0cBRviQdbAVNxdVvOyuO3+rM9bvFroF7UZY0R1ue/xvKXlqJrEkNKZQODeKjzaAhA==
 
-"@clr/core@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@clr/core/-/core-3.1.0.tgz#a31c3e95b6775f8dd90caa4ff06be22a6b1bbc13"
-  integrity sha512-Twmpo0RFLQVp7b6LAm9A4BnwRt1SG7XhcfhxSozmhzxt2s9Q+S0b7UQSzPj1Vmlj+L1n4dKojKkAlE31CR6+kA==
+"@clr/core@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@clr/core/-/core-3.1.1.tgz#d364cf1a35d7e4af2577d9a7a44c3fbb3201727a"
+  integrity sha512-mGz29H70a7FIDuwcYtnoeLV3dutIBXkPBbXBCPGx55IJlUXSDnYGF86ytqd4ftRhCW2AcrAkYWNBPnOXTCSBNg==
   dependencies:
     css-vars-ponyfill "^2.1.2"
     lit-element "^2.2.1"
@@ -109,15 +109,15 @@
     "@webcomponents/shadycss" "^1.9.3"
     "@webcomponents/webcomponentsjs" "^2.4.0"
 
-"@clr/icons@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-3.1.0.tgz#da38611a382c06f33f68cf94779c792114e98c8e"
-  integrity sha512-i3vF5WJ79QzjRxWSh/ohUJkouunlUWSafnml9aztMrmm9DDMWNsEBxKyFCkwNMZIk+UYvI9e7rHmKGs0ZEpTaQ==
+"@clr/icons@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-3.1.1.tgz#16eb9ae1e6aedda2c10d47294d00549ad859812e"
+  integrity sha512-kvf9r6vAueR744HnVOYx6go+dwlxqlf1aXIWBdNfw28hFFla5ajaRvRsfCU3qro/osTxFue1RYz/8M1OCj5V6A==
 
-"@clr/ui@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-3.1.0.tgz#3c05a090dfaecdec5483f862988a18819bc466ca"
-  integrity sha512-7W0K+eA2uNV1eL+se8eopaaN/TmWk7mYC6hynkq5YSE1S5SquNmcRLvKgpojdLpS9jXVBszO1xWlQtCpxd4BGg==
+"@clr/ui@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-3.1.1.tgz#1c669823876ece4d38d64e89ba0fcf28ce711c87"
+  integrity sha512-/qk7CyEsCx6/UFcpNQi6Jidf1HB+fJqSJHkf3zzelypiahO34JDi+bjZNI65oOSF04DuUYVmtHK4BrOOB508Ww==
 
 "@ngtools/webpack@^8.1.1":
   version "8.3.26"
